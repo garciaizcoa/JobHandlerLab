@@ -78,7 +78,8 @@ public class Employee {
 	 * 		d) For a level 0 the employee needs less than 1 year of service.
 	 * @return 
 	 */
-	public int seniorityLevel(int yearService) {
+	public int seniorityLevel(){
+	
 		if(yearService>=10){
 			return 3;	
 		}else if(yearService<10&&yearService>=5){
